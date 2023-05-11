@@ -29,18 +29,42 @@ body {
   flex-direction: column;
   width: 650px;
   height: 650px;
-  margin: auto auto;
   border: 8px solid black;
-  background-color: wheat;
+  background-color: rgb(230, 220, 201);
 }
 
 .tile {
-  border: 1px solid black; /*this is gonna get deleted probably*/
   flex: 1 1 auto;
   background-color: wheat;
+  opacity: 0;
 }
 
 .row {
   display: flex;
   flex: 1 1 auto;
+}
+
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 200px;
+  height: 600px;
+  margin-top: -160px;
+  justify-content: space-evenly;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  height: 40px;
+  width: auto;
+  border-radius: 12px;
+  background-color: #d1001f;
 }
