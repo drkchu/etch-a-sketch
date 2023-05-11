@@ -1,7 +1,15 @@
 * {
   padding: 0px;
   margin: 0px;
+  background: transparent;
+}
+
+body {
+  background-image: url("img/rain.gif");
   background-color: #f45b69;
+  background-blend-mode: multiply;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .title {

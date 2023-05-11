@@ -1,5 +1,11 @@
 let tileContainer = document.querySelector(".tile-container");
 
+ /*I gotta fix this*/
+createGrid(prompt("Give me a number"));
+
+let allTiles = document.querySelectorAll(".tile");
+console.log(allTiles);
+
 // REQUIRES: numSquares is non-negative
 // EFFECTS: initializes a numSquares x numSquares grid on the screen
 function createGrid(numSquares) {
