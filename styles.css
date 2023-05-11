@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f45b69;
+}
+
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  margin: 24px auto;
+  width: 40%;
+  padding: 20px;
+  border-radius: 15px;
+  border: 8px solid black;
+  background-color: #fdfd96;
+}
+
+.tile-container {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 650px;
+  margin: auto auto;
+  border: 8px solid black;
+  background-color: wheat;
+}
+
+.tile {
+  border: 1px solid black; /*this is gonna get deleted probably*/
+  flex: 1 1 auto;
+  background-color: wheat;
+}
+
+.row {
+  display: flex;
+  flex: 1 1 auto;
+}
