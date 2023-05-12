@@ -3,7 +3,8 @@ let isEraser = false;
 let isSketchMode = false;
 let showGridLines = false;
 
-initializeBoard();
+createGrid(16);
+initializeTiles();
 initializeMouseWatcher();
 initializeButtons();
 
